@@ -1,0 +1,113 @@
+*{
+  border: 0;
+  padding: 0;   
+  font-weight: bold;
+  box-sizing: border-box;
+}
+body{
+  margin: auto;
+  max-width: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*background-color:#BDDFD7;*/
+}
+img.imagen{
+  width: 15rem; 
+  height: 25rem;
+}
+div.cont{
+  margin: 1%; 
+  width: 100%;
+  content: center;
+  padding-top: 5%; 
+}
+div.fondito{
+  width: 90%;
+  padding: 5%;
+  margin-left: 3%;
+  background-color: hsla(161, 0%, 99%, 0.5);   
+}    
+.textito{
+  padding-top: 15px;
+  text-align: center;
+}
+div.TL{
+  margin: 1%;  
+  color: black;
+  font-size: 20;
+  font-weight:bold;
+  font-family: Consolas;
+  -webkit-text-fill-color: black;  
+}
+div.TL1{
+  color: black;
+  font-family: arial;
+  background-size: 25;
+  font-weight:bold;
+}
+* {
+        margin:0px;
+        padding:0px;
+      }
+      #header {
+        margin:auto;
+        width: 140%;
+        padding: center;
+        font-weight: bold;
+        font-family: Georgia;
+      }
+      ul, ol {
+        list-style:none;
+      }
+      .nav {
+        width: 50%; 
+        margin:0 auto; 
+      }
+      .nav > li {
+        float:left;
+      } 
+      .nav li a {
+        color: black;
+        display:block;
+        padding:10px 12px;
+        text-decoration:none;
+        background-color: #99A7A4;
+      }
+      .nav li a:hover {
+        background-color:#BAD3CD;
+      }
+      .nav li ul {
+        display:none;
+        min-width:140px;
+        position:absolute;
+      }
+      .nav li:hover > ul {
+        display:block;
+      }
+      .nav li ul li {
+        position:relative;
+      }
+      .nav li ul li ul {
+        top:0px;
+        right:-140px;
+      }
+div.botones{
+  width: 100%;
+  padding: 2rem;
+  text-align: center; 
+  border-color: transparent;
+}
+.button{
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 6px;
+    font-family: Tahoma;
+    background-color: #99A7A4; 
+    border: 2px solid #418174;
+}
+.button:hover{
+    color: black;
+    background-color: #77B9AC;    
+}

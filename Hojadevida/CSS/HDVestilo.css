@@ -1,0 +1,25 @@
+body{
+	width: 90%;
+	margin: auto;
+	min-width: 600px;
+	max-width: 2000px;
+	background-color: #EAF8FB;
+}
+.E1{
+	margin: 2%;
+	height: 2rem;
+	padding: 1em;
+	color: black;
+	font-size: 25;
+	text-align: center;
+	font-family: impact;
+	border: solid #2A0431;
+	background-color: #D6CADE;
+	border-radius: 8px 8px 8px 8px;
+}
+.E2{
+	color: black;
+	font-size: 20;
+	text-align: left;
+	font-family: Arial;
+}
